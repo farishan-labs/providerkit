@@ -77,6 +77,12 @@ func TestRedact(t *testing.T) {
 	}
 }
 
+func TestVersion(t *testing.T) {
+	if Version == "" {
+		t.Fatal("Version must not be empty")
+	}
+}
+
 func TestJoinSplitTags(t *testing.T) {
 	if got := JoinTags([]string{" a ", "", "b"}); got != "a,b" {
 		t.Errorf("got %q", got)
