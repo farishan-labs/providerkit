@@ -1,0 +1,14 @@
+.env
+.env.*
+*.log
+.DS_Store
+node_modules/
+dist/
+build/
+coverage/
+
+# Go
+*.exe
+*.test
+*.out
+vendor/

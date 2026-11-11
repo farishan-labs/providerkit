@@ -1,5 +1,8 @@
 # providerkit
 
+![License](https://img.shields.io/github/license/farishan-labs/providerkit) ![Stars](https://img.shields.io/github/stars/farishan-labs/providerkit)
+
+
 Small, dependency-free Go helpers shared by `forager` and `provider-intel`
 (and any other labs tool dealing with LLM/API providers).
 
@@ -23,3 +26,9 @@ replace github.com/farishan/providerkit => ../providerkit
 ```
 
 A `go.work` at `~/dev/labs` ties the modules together for local development.
+
+## Installation
+
+```bash
+go get github.com/farishan-labs/providerkit
+```
